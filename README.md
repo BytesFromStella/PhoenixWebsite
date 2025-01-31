@@ -7,7 +7,7 @@ Desktop view would have a static menu navigation, along with the following chron
 See ![Alt text](image-link "Title") for context
 
 ## (Suggest title)
-The tags like <main> contain the following:
+The tags like ``<main>`` contain the following:
 
 - A header with the logo and the wave animation.
 - A nav bar with static link boxes (not <button> btw). This will transform into a hamburger menu on mobile
