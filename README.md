@@ -19,5 +19,6 @@ The tags like ``<main>`` contain the following:
 
 - A background animation with slow water waves. 
 
-## MVC and folder structure 
+## MVC and folder structure
+mvc stands for most valuable cock 
 
