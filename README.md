@@ -1,6 +1,6 @@
 # PhoenixWebsite
 For our group project week 5-7 in 2025
-
+Testing merge conflicts
 
 # Discussion
 Desktop view would have a static menu navigation, along with the following chronologic order from top to bottom: Head, nav, main+facebook feed, footer
