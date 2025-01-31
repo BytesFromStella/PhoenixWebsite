@@ -1,10 +1,16 @@
 # PhoenixWebsite
 For our group project week 5-7 in 2025
-Testing merge conflicts
 
 # Discussion
 Desktop view would have a static menu navigation, along with the following chronologic order from top to bottom: Head, nav, main+facebook feed, footer
 See ![Alt text](image-link "Title") for context
+
+# Delegation (current)
+- Joakim: ``homePageView.js`` id: main
+- Kamila: Started working on boilerplate (general structure) of HTML.
+- Kristoffer: Working on styling, animations, aestethic and design
+- Therese: Writing the ``about.html`` content
+- Stella: Audit progress and help out wherever needed. Write ``partners`` content
 
 ## (Suggest title)
 The tags like ``<main>`` contain the following:
