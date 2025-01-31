@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HUB Phønix</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/wave.css">
+    <script defer src="js/controller.js"></script>
+    <script defer src="js/router.js"></script>
+</head>
+<body>
+    <!-- Navigasjonsmeny -->
+    <nav>
+        <ul>
+            <li><a href="#home" data-route="home">Hjem</a></li>
+            <li><a href="#services" data-route="services">Tjenester</a></li>
+            <li><a href="#booking" data-route="booking">Booking</a></li>
+            <li><a href="#about" data-route="about">Om oss</a></li>
+            <li><a href="#resources" data-route="resources">Ressurser</a></li>
+        </ul>
+    </nav>
+
+    <!-- Dynamisk innhold rendres her -->
+    <main id="app"></main>
+
+    <!-- Nyhetsbrev -->
+    <section class="newsletter">
+        <p>Abonner på vårt nyhetsbrev</p>
+        <input type="email" placeholder="Din e-postadresse">
+        <select>
+            <option value="tjenester">Tjenester og aktiviteter</option>
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+        </select>
+        <button>Abonner</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        &copy 2025 HUB Phønix
+    </footer>
+</body>
+</html>
