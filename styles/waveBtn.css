@@ -10,7 +10,7 @@
 
 :root {
   
-    --dark-gray: #0C0E12;
+    --dark-gray: #ffffff;
     --ocean: #1455C2;
     --light: #fff;
   }
@@ -48,7 +48,7 @@
   }
   
   .ocean {
-    
+    z-index: -1;
     position: absolute;
     left: 0;
     top: -100px;

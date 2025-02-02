@@ -1,44 +1,78 @@
 <!DOCTYPE html>
 <html lang="no">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HUB Phønix</title>
     <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="styles/wave.css">
-    <script defer src="js/controller.js"></script>
-    <script defer src="js/router.js"></script>
+    <!-- <link rel="stylesheet" href="styles/wave.css"> -->
+    <!-- <link rel="stylesheet" href="styles/waveBtn.css"> -->
 </head>
+
 <body>
+
+    <!-- Header med logo -->
     <!-- Navigasjonsmeny -->
-    <nav>
-        <ul>
-            <li><a href="#home" data-route="home">Hjem</a></li>
-            <li><a href="#services" data-route="services">Tjenester</a></li>
-            <li><a href="#booking" data-route="booking">Booking</a></li>
-            <li><a href="#about" data-route="about">Om oss</a></li>
-            <li><a href="#resources" data-route="resources">Ressurser</a></li>
-        </ul>
-    </nav>
+    <header>
+        <nav>
+            <div class="navigation">
+                <ul>
+                    <img src="assets/logo-blue.png" alt="" id="img-logo" onclick="window.location.href='/'"></img>
+                    <a class="item2" href="#home" data-route="home">Hjem</a>
+                    <a class="item2" href="#services" data-route="services">Tjenester</a>
+                    <a class="item2" href="#booking" data-route="booking">Booking</a>
+                    <a class="item2" href="#about" data-route="about">Om oss</a>
+                    <a class="item2" href="#resources" data-route="resources">Ressurser</a>
+                </ul>
+            </div>
+        </nav>
 
-    <!-- Dynamisk innhold rendres her -->
+    </header>
+
+
     <main id="app"></main>
+    <!-- Dynamisk innhold rendres her
+    <aside id="news"></aside>
+    <aside id="facebook-feed"></aside>
+    Kontakt oss skjema
+    <section class="contact-form">
+        <h3>Kontaktskjema</h3>
+        <input type="text" placeholder="Navn">
+        <input type="email" placeholder="E-post">
+        <textarea placeholder="Skriv inn din henvendelse her"></textarea>
+        <button onclick="contactSend()">Send melding</button>
 
-    <!-- Nyhetsbrev -->
-    <section class="newsletter">
-        <p>Abonner på vårt nyhetsbrev</p>
-        <input type="email" placeholder="Din e-postadresse">
-        <select>
-            <option value="tjenester">Tjenester og aktiviteter</option>
-            <option value="option1">Option 1</option>
-            <option value="option2">Option 2</option>
-        </select>
-        <button>Abonner</button>
-    </section>
+        <section class="newsletter">
+            <h4>Abonner på vårt nyhetsbrev</h4>
+            <input type="text" placeholder="Navn">
+            <input type="email" placeholder="Din e-postadresse">
+            <button onclick="subscribeNewsletter()">Abonner</button>
+        </section> -->
 
     <!-- Footer -->
     <footer>
-        &copy 2025 HUB Phønix
+        <!-- Samarbeidspartnere -->
+        <section class="partners">
+            <h3>Our partners:</h3>
+            <img src="" alt="Visit Fredrikstad&Hvaler Logo">
+            <a href="https://www.visitfredrikstadhvaler.com/"> Visit Fredrikstad&Hvaler</a>
+            <img src="teamoppgave/Assets/AOF logo.png" alt="AOF Østfold Logo">
+            <a href="https://utdanning.aofostfold.no/"> AOF Østfold</a>
+            <img src="" alt="Håpets Katedral Logo">
+            <a href="https://hapetskatedral.no/"> Håpets Katedral
+                <img src="" alt="IDG Fredrikstad Community Hub Logo"></a>
+            <a href="https://www.facebook.com/profile.php?id=61553305102236">IDG Fredrikstad Community
+                Hub</a>
+            <button>Finn ut mer om våre samarbeidspartnere</button>
+            <p>
+                <h4><b>Kontakt informasjon</b></h4>
+                <b>Adresse:</b> Phønixbrygga 3, 1606 Fredrikstad <b>E-post:</b> post@hubphonix.no <b>Telefon:</b> +47 XXXXXXXX</p>
+                 &copy 2025 - HUB Phønix
+        </section>
     </footer>
+    <script src="js/Main/controller.js"></script>
+    <script type='module' src="js/Main/router.js"></script>
 </body>
+
 </html>

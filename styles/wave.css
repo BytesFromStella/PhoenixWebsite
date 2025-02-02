@@ -1,27 +1,16 @@
-/* Add divs and link the wave.css to your html=>     
-    <section>
-        <div class='air air1'></div>
-        <div class='air air2'></div>
-        <div class='air air3'></div>
-        <div class='air air4'></div>
-      </section>
-
-      */
-
-
-
-
 *{
     margin: 0;
     padding: 0;
   }
-  section{
+  section.Animation{
     position: relative;
     width: 100%;
     height: 100vh;
     background: #3586ff;
     overflow: hidden;
   }
+
+
   section .air{
     position: absolute;
     bottom: 0;
