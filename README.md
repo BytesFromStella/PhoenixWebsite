@@ -20,7 +20,7 @@ The tags like ``<main>`` contain the following:
 The header and the NAV-bar is attached as a static element on the top of the page.
 - Main will contain the contents of the website. It is where we replace content when the user clicks on a link and the new "page" loads. Use the following syntax to point to the main HTML tag and HTML content: ```document.getElementsByTagName("main").innerHTML = "value"```
 - Aside tag with the facebook feed. This will move above/below main when viewing the website on a mobile phone.
-- Footer will contain certain links, copyright, and a "seperate" section above it with the newsletter signup.
+- Footer will contain certain links, copyright, partnerships with logo and links and a "seperate" section above it with the newsletter signup.
 
 ## Responsive design and layout
 How the webpage is displayed on each device.

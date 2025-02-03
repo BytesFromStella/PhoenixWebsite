@@ -32,45 +32,138 @@
 
 
     <main id="app"></main>
-    <!-- Dynamisk innhold rendres her
-    <aside id="news"></aside>
+    <!-- Dynamisk innhold rendres her-->
+    <aside id="news" style="display: ;"> Here comes the facebook feed</aside>
     <aside id="facebook-feed"></aside>
-    Kontakt oss skjema
+    <!-- Kontakt oss skjema
     <section class="contact-form">
         <h3>Kontaktskjema</h3>
         <input type="text" placeholder="Navn">
         <input type="email" placeholder="E-post">
         <textarea placeholder="Skriv inn din henvendelse her"></textarea>
-        <button onclick="contactSend()">Send melding</button>
+        <button onclick="contactSend()">Send melding</button> -->
 
         <section class="newsletter">
             <h4>Abonner på vårt nyhetsbrev</h4>
             <input type="text" placeholder="Navn">
             <input type="email" placeholder="Din e-postadresse">
             <button onclick="subscribeNewsletter()">Abonner</button>
-        </section> -->
+        </section>
 
     <!-- Footer -->
+
     <footer>
-        <!-- Samarbeidspartnere -->
+        <div class="footer-container">
+
+            <section class="partners">
+                <h3>Our partners:</h3>
+                <section class="partner-container">
+                  <p class="partner">
+                    <img src="assets/visitFredrikstad&HvalerLogo.png" alt="Visit Fredrikstad&Hvaler Logo" class="partnerLogo">
+                    <a href="https://www.visitfredrikstadhvaler.com/">Visit Fredrikstad&Hvaler</a>
+                  </p>
+                  <p class="partner">
+                    <img src="assets/AOF logo.png" alt="AOF Østfold Logo" class="partnerLogo">
+                    <a href="https://utdanning.aofostfold.no/">AOF Østfold</a>
+                  </p>
+                  <p class="partner">
+                    <img src="assets/Hapets Katedral logo.jpg" alt="Håpets Katedral Logo" class="partnerLogo">
+                    <a href="https://hapetskatedral.no/">Håpets Katedral</a>
+                  </p>
+                  <p class="partner">
+                    <img src="assets/idg logo.jpg" alt="IDG Fredrikstad Community Hub Logo" class="partnerLogo">
+                    <a href="https://www.facebook.com/profile.php?id=61553305102236">IDG Fredrikstad Communit Hub</a>
+                  </p>
+                  <p class="partner">
+                    <img src="assets/borg havn logo.png" alt="Borg Havn Logo" class="partnerLogo">
+                    <a href="https://www.facebook.com/profile.php?id=61553305102236">IDG Fredrikstad Communit Hub</a>
+                  </p>
+                  <p class="partner">
+                    <img src="assets/ncce logo.png" alt="Norsk Senter for Sirkulær Økonomi Logo" class="partnerLogo">
+                    <a href="https://ncce.no/no/">Norsk Senter for Sirkulær Økonomi</a>
+                  </p>
+                </section>
+                <!-- <button>Finn ut mer om våre samarbeidspartnere</button> -->
+              </section>
+
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Us</h3>
+                    <p>We are dedicated to providing quality services and innovative solutions to our customers worldwide.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Business Street, New York</p>
+                        <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                        <p><i class="fas fa-envelope"></i> info@company.com</p>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 - HUB Phønix</p>
+            </div>
+        </div>
+    </footer>
+    <!-- <footer>
+         Samarbeidspartnere 
         <section class="partners">
             <h3>Our partners:</h3>
-            <img src="" alt="Visit Fredrikstad&Hvaler Logo">
-            <a href="https://www.visitfredrikstadhvaler.com/"> Visit Fredrikstad&Hvaler</a>
-            <img src="teamoppgave/Assets/AOF logo.png" alt="AOF Østfold Logo">
-            <a href="https://utdanning.aofostfold.no/"> AOF Østfold</a>
-            <img src="" alt="Håpets Katedral Logo">
-            <a href="https://hapetskatedral.no/"> Håpets Katedral
-                <img src="" alt="IDG Fredrikstad Community Hub Logo"></a>
-            <a href="https://www.facebook.com/profile.php?id=61553305102236">IDG Fredrikstad Community
-                Hub</a>
+            <section class="partner-container">
+              <p class="partner">
+                <img src="assets/visitFredrikstad&HvalerLogo.png" alt="Visit Fredrikstad&Hvaler Logo" class="partnerLogo">
+                <a href="https://www.visitfredrikstadhvaler.com/">Visit Fredrikstad&Hvaler</a>
+              </p>
+              <p class="partner">
+                <img src="assets/AOF logo.png" alt="AOF Østfold Logo" class="partnerLogo">
+                <a href="https://utdanning.aofostfold.no/">AOF Østfold</a>
+              </p>
+              <p class="partner">
+                <img src="assets/Hapets Katedral logo.jpg" alt="Håpets Katedral Logo" class="partnerLogo">
+                <a href="https://hapetskatedral.no/">Håpets Katedral</a>
+              </p>
+              <p class="partner">
+                <img src="assets/idg logo.jpg" alt="IDG Fredrikstad Community Hub Logo" class="partnerLogo">
+                <a href="https://www.facebook.com/profile.php?id=61553305102236">IDG Fredrikstad Communit Hub</a>
+              </p>
+              <p class="partner">
+                <img src="assets/borg havn logo.png" alt="Borg Havn Logo" class="partnerLogo">
+                <a href="https://www.facebook.com/profile.php?id=61553305102236">IDG Fredrikstad Communit Hub</a>
+              </p>
+              <p class="partner">
+                <img src="assets/ncce logo.png" alt="Norsk Senter for Sirkulær Økonomi Logo" class="partnerLogo">
+                <a href="https://ncce.no/no/">Norsk Senter for Sirkulær Økonomi</a>
+              </p>
+            </section>
             <button>Finn ut mer om våre samarbeidspartnere</button>
-            <p>
+          </section>
                 <h4><b>Kontakt informasjon</b></h4>
                 <b>Adresse:</b> Phønixbrygga 3, 1606 Fredrikstad <b>E-post:</b> post@hubphonix.no <b>Telefon:</b> +47 XXXXXXXX</p>
                  &copy 2025 - HUB Phønix
         </section>
-    </footer>
+    </footer> -->
     <script src="js/Main/controller.js"></script>
     <script type='module' src="js/Main/router.js"></script>
 </body>
