@@ -1,0 +1,113 @@
+/* Contact Form Container */
+.contact-form {
+    background-color: #ffffff; /* Primary: white */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 40px auto;
+  }
+  
+  /* Contact Form Heading */
+  .contact-form h3 {
+    text-align: center;
+    color: #00aaff; /* Secondary: light blue */
+    margin-bottom: 20px;
+  }
+  
+  /* Form Inputs and Textarea */
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Focus State for Inputs and Textarea */
+  .contact-form input[type="text"]:focus,
+  .contact-form input[type="email"]:focus,
+  .contact-form textarea:focus {
+    border-color: #00aaff;
+    box-shadow: 0 0 8px rgba(0, 170, 255, 0.3);
+    outline: none;
+  }
+  
+  /* Contact Form Button */
+  .contact-form button {
+    background-color: #00aaff;
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Button Hover Effect */
+  .contact-form button:hover {
+    background-color: #008ecc; /* Slightly darker blue */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Newsletter Section within the Contact Form */
+  .contact-form .newsletter {
+    background-color: #f9f9f9; /* Light background for contrast */
+    padding: 30px;
+    border-radius: 8px;
+    margin-top: 30px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Newsletter Heading */
+  .contact-form .newsletter h4 {
+    text-align: center;
+    color: #00aaff;
+    margin-bottom: 20px;
+  }
+  
+  /* Newsletter Inputs */
+  .contact-form .newsletter input[type="text"],
+  .contact-form .newsletter input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Focus State for Newsletter Inputs */
+  .contact-form .newsletter input[type="text"]:focus,
+  .contact-form .newsletter input[type="email"]:focus {
+    border-color: #00aaff;
+    box-shadow: 0 0 8px rgba(0, 170, 255, 0.3);
+    outline: none;
+  }
+  
+  /* Newsletter Button */
+  .contact-form .newsletter button {
+    background-color: #00aaff;
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Newsletter Button Hover Effect */
+  .contact-form .newsletter button:hover {
+    background-color: #008ecc;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
