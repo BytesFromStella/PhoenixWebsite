@@ -19,7 +19,7 @@ The tags like ``<main>`` contain the following:
 - A nav bar with static link boxes (not <button> btw). This will transform into a hamburger menu on mobile
 - Main will contain the contents of the website. It is where we replace content when the user clicks on a link and the new "page" loads. Use the following syntax to point to the main HTML tag and HTML content: ```document.getElementsByTagName("main").innerHTML = "value"```
 - Aside tag with the facebook feed. This will move above/below main when viewing the website on a mobile phone.
-- Footer will contain certain links, copyright, and a "seperate" section above it with the newsletter signup.
+- Footer will contain certain links, copyright, partnerships with logo and links and a "seperate" section above it with the newsletter signup.
 
 ## Aestethic and structure
 
