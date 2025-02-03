@@ -5,11 +5,11 @@ export function resourcePageView() {
     <p>Firmaer og organisasjoner vi har samarbeid med</p>
     <figure>
         <img src=" ">
-        <figcaption>Get Academy - Introduction</figcaption>
+        <figcaption>Name - Introduction</figcaption>
     </figure>
         <figure>
         <img src=" ">
-        <figcaption>AOF Østfold - Introduction</figcaption>
+        <figcaption>Name - Introduction</figcaption>
     </figure>
         <figure>
         <img src=" ">
