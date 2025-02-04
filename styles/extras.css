@@ -74,7 +74,8 @@
   
   /* Newsletter Inputs */
   .contact-form .newsletter input[type="text"],
-  .contact-form .newsletter input[type="email"] {
+  .contact-form .newsletter input[type="email"],
+  .contact-form .newsletter select {
     width: 100%;
     padding: 12px;
     margin-bottom: 15px;

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/hjem.css">
     <link rel="stylesheet" href="styles/extras.css">
+    <link rel="stylesheet" href="styles/carousel.css">
     <!-- <link rel="stylesheet" href="styles/waveBtn.css"> -->
 </head>
 
@@ -48,63 +49,99 @@
         </nav>
 
     </header>
+     <!-- Facebook feed -->
+     <aside id="facebook-feed">
+        <iframe src="https://widget.tagembed.com/2151383" style="width:100%;height:100vh;border:none;"></iframe>
+    </aside>
+  
 
 
     <main id="app"></main>
     <!-- Dynamisk innhold rendres her-->
-    <aside id="news"> Here comes the facebook feed</aside>
-    <aside id="facebook-feed"></aside>
-    <!-- Kontakt oss skjema -->
+       <!-- Kontakt oss skjema -->
     <section class="contact-form">
         <h3>Kontaktskjema</h3>
         <input type="text" placeholder="Navn">
         <input type="email" placeholder="E-post">
         <textarea placeholder="Skriv inn din henvendelse her"></textarea>
-        <button onclick="contactSend()">Send melding</button> -->
+        <button onclick="contactSend()">Send melding</button>
 
-        <section class="newsletter">
+    <section class="newsletter">
             <h4>Abonner på vårt nyhetsbrev</h4>
             <input type="text" placeholder="Navn">
             <input type="email" placeholder="Din e-postadresse">
+            <select id="selectNewsletterTopic" class="inputNewsletter">
+                <option value="blank" selected disabled>Velg temaer</option>
+                <option value="events">Tjenester</option>
+                <option value="podcast">Podcast</option>
+                <option value="update">Oppdatering</option>
+            </select>
             <button onclick="subscribeNewsletter()">Abonner</button>
-        </section>
+    </section>
+    </section>
 
-    <!-- Footer -->
+<!-- Carousel partnership -->
+    <h6 style="font-size: large;">Our partners:</h6>
+    <div class="carousel basic">
+        <div class="group">
+            <div class="card">
+                <img src="assets/visitFredrikstad&HvalerLogo.png" alt="Visit Fredrikstad&Hvaler Logo" class="partnerLogo">
+                <a href="https://www.visitfredrikstadhvaler.com/">Visit Fredrikstad&Hvaler</a>
+            </div>
+            <div class="card">
+                <img src="assets/AOF logo.png" alt="AOF Østfold Logo" class="partnerLogo">
+                <a href="https://utdanning.aofostfold.no/">AOF Østfold</a>
+            </div>
+            <div class="card">
+                <img src="assets/Hapets Katedral logo.jpg" alt="Håpets Katedral Logo" class="partnerLogo">
+                <a href="https://hapetskatedral.no/">Håpets Katedral</a>
+            </div>
+            <div class="card">
+                <img src="assets/idg logo.jpg" alt="IDG Fredrikstad Community Hub Logo" class="partnerLogo">
+                <a href="https://www.facebook.com/profile.php?id=61553305102236">IDG Fredrikstad Communit Hub</a>
+            </div>
+            <div class="card">
+                <img src="assets/borg havn logo.png" alt="Borg Havn Logo" class="partnerLogo">
+                <a href="https://www.borg-havn.no/">Borg Havn</a>
+            </div>
+            <div class="card">
+                <img src="assets/ncce logo.png" alt="Norsk Senter for Sirkulær Økonomi Logo" class="partnerLogo">
+                <a href="https://ncce.no/no/">Norsk Senter for Sirkulær Økonomi</a>
+            </div>
+        </div>
+        <div aria-hidden class="group">
+            <div class="card">
+                <img src="assets/visitFredrikstad&HvalerLogo.png" alt="Visit Fredrikstad&Hvaler Logo" class="partnerLogo">
+                <a href="https://www.visitfredrikstadhvaler.com/">Visit Fredrikstad&Hvaler</a>
+            </div>
+            <div class="card">
+                <img src="assets/AOF logo.png" alt="AOF Østfold Logo" class="partnerLogo">
+                <a href="https://utdanning.aofostfold.no/">AOF Østfold</a>
+            </div>
+            <div class="card">
+                <img src="assets/Hapets Katedral logo.jpg" alt="Håpets Katedral Logo" class="partnerLogo">
+                <a href="https://hapetskatedral.no/">Håpets Katedral</a>
+            </div>
+            <div class="card">
+                <img src="assets/idg logo.jpg" alt="IDG Fredrikstad Community Hub Logo" class="partnerLogo">
+                <a href="https://www.facebook.com/profile.php?id=61553305102236">IDG Fredrikstad Communit Hub</a>
+            </div>
+            <div class="card">
+                <img src="assets/borg havn logo.png" alt="Borg Havn Logo" class="partnerLogo">
+                <a href="https://www.borg-havn.no/">Borg Havn</a>
+            </div>
+            <div class="card">
+                <img src="assets/ncce logo.png" alt="Norsk Senter for Sirkulær Økonomi Logo" class="partnerLogo">
+                <a href="https://ncce.no/no/">Norsk Senter for Sirkulær Økonomi</a>
+            </div>
+        </div>
+    </div>
 
-    <footer>
+
+
+<!-- Footer -->
+        <footer>
         <div class="footer-container">
-
-            <section class="partners">
-                <h3>Our partners:</h3>
-                <section class="partner-container">
-                  <p class="partner">
-                    <img src="assets/visitFredrikstad&HvalerLogo.png" alt="Visit Fredrikstad&Hvaler Logo" class="partnerLogo">
-                    <a href="https://www.visitfredrikstadhvaler.com/">Visit Fredrikstad&Hvaler</a>
-                  </p>
-                  <p class="partner">
-                    <img src="assets/AOF logo.png" alt="AOF Østfold Logo" class="partnerLogo">
-                    <a href="https://utdanning.aofostfold.no/">AOF Østfold</a>
-                  </p>
-                  <p class="partner">
-                    <img src="assets/Hapets Katedral logo.jpg" alt="Håpets Katedral Logo" class="partnerLogo">
-                    <a href="https://hapetskatedral.no/">Håpets Katedral</a>
-                  </p>
-                  <p class="partner">
-                    <img src="assets/idg logo.jpg" alt="IDG Fredrikstad Community Hub Logo" class="partnerLogo">
-                    <a href="https://www.facebook.com/profile.php?id=61553305102236">IDG Fredrikstad Communit Hub</a>
-                  </p>
-                  <p class="partner">
-                    <img src="assets/borg havn logo.png" alt="Borg Havn Logo" class="partnerLogo">
-                    <a href="https://www.facebook.com/profile.php?id=61553305102236">IDG Fredrikstad Communit Hub</a>
-                  </p>
-                  <p class="partner">
-                    <img src="assets/ncce logo.png" alt="Norsk Senter for Sirkulær Økonomi Logo" class="partnerLogo">
-                    <a href="https://ncce.no/no/">Norsk Senter for Sirkulær Økonomi</a>
-                  </p>
-                </section>
-                <!-- <button>Finn ut mer om våre samarbeidspartnere</button> -->
-              </section>
-
             <div class="footer-content">
                 <div class="footer-section">
                     <h3>About Us</h3>
@@ -146,43 +183,7 @@
             </div>
         </div>
     </footer>
-    <!-- <footer>
-         Samarbeidspartnere 
-        <section class="partners">
-            <h3>Our partners:</h3>
-            <section class="partner-container">
-              <p class="partner">
-                <img src="assets/visitFredrikstad&HvalerLogo.png" alt="Visit Fredrikstad&Hvaler Logo" class="partnerLogo">
-                <a href="https://www.visitfredrikstadhvaler.com/">Visit Fredrikstad&Hvaler</a>
-              </p>
-              <p class="partner">
-                <img src="assets/AOF logo.png" alt="AOF Østfold Logo" class="partnerLogo">
-                <a href="https://utdanning.aofostfold.no/">AOF Østfold</a>
-              </p>
-              <p class="partner">
-                <img src="assets/Hapets Katedral logo.jpg" alt="Håpets Katedral Logo" class="partnerLogo">
-                <a href="https://hapetskatedral.no/">Håpets Katedral</a>
-              </p>
-              <p class="partner">
-                <img src="assets/idg logo.jpg" alt="IDG Fredrikstad Community Hub Logo" class="partnerLogo">
-                <a href="https://www.facebook.com/profile.php?id=61553305102236">IDG Fredrikstad Communit Hub</a>
-              </p>
-              <p class="partner">
-                <img src="assets/borg havn logo.png" alt="Borg Havn Logo" class="partnerLogo">
-                <a href="https://www.facebook.com/profile.php?id=61553305102236">IDG Fredrikstad Communit Hub</a>
-              </p>
-              <p class="partner">
-                <img src="assets/ncce logo.png" alt="Norsk Senter for Sirkulær Økonomi Logo" class="partnerLogo">
-                <a href="https://ncce.no/no/">Norsk Senter for Sirkulær Økonomi</a>
-              </p>
-            </section>
-            <button>Finn ut mer om våre samarbeidspartnere</button>
-          </section>
-                <h4><b>Kontakt informasjon</b></h4>
-                <b>Adresse:</b> Phønixbrygga 3, 1606 Fredrikstad <b>E-post:</b> post@hubphonix.no <b>Telefon:</b> +47 XXXXXXXX</p>
-                 &copy 2025 - HUB Phønix
-        </section>
-    </footer> -->
+
     <script src="js/Main/controller.js"></script>
     <script type='module' src="js/Main/router.js"></script>
 </body>
