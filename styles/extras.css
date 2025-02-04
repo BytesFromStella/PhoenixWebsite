@@ -110,4 +110,13 @@
     background-color: #008ecc;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   }
+  /* Facebook Feed */
+  aside {
+    width: 25%;
+    height: 100vh;
+    margin-right: 15px;
+    float: right;
+    background-color: var(--light-blue);
+  }
+  
   
