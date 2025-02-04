@@ -47,8 +47,8 @@ Blue: PMS 7461C (R10 G151 B217)
 Marineblue: PMS 294C (R25 G72 B106)
 Light blue: PMS 638C (R38 G189 B226)
 ### Secondary color pallette 
-Lys grå: PMS Cool Gray 1C (R241 G241 B241)
-Svart: R0 G0 B0
+Light gray: PMS Cool Gray 1C (R241 G241 B241)
+Black: R0 G0 B0
 
 ## MVC and folder structure
 We are using the model view controller style for this project so subsequent versions of the website can easily expand and deploy. You just add another view to the project and you have another functioning page using the core CSS without modifications.
