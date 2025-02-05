@@ -15,7 +15,22 @@
     height: auto;
     width: 700px;
   }
-  
+  #layout-container {
+    display: grid;
+    grid-template-areas: "main aside";
+    grid-template-columns: 1fr 300px;
+    gap: 20px;
+  }
+  main {
+    grid-area: main;
+  }
+  #facebook-feed-desktop {
+    grid-area: aside;
+  }
+  #facebook-feed-mobile {
+    display: none;
+  }
+
   * {
     font-family: sans-serif;
   }
@@ -98,6 +113,18 @@
   @media (max-width: 768px) {
     .footer-content {
       grid-template-columns: 1fr;
+    }
+    .layout-container {
+      grid-template-areas: 
+      "main"
+      "aside";
+      grid-template-columns: 1fr;
+    }
+    #facebook-feed-desktop {
+      display: none;
+    }
+    #facebook-feed-mobile {
+      display: block;
     }
   }
   

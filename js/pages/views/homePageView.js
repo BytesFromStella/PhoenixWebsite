@@ -19,6 +19,16 @@ export function homePageView() {
             <p>Les mer om hvordan vi jobber med bærekraftsmålene <a href="">her</a>.</p>
             </article>
             </section>
+
+     <!-- Facebook feed desktop-->
+     <aside id="facebook-feed-desktop">
+     <iframe src="https://widget.tagembed.com/2151383" loading="lazy" style="width:100%;height:100vh;border:none;"></iframe>
+ </aside>
+ <!-- Facebook feed mobile-->
+ <section id="facebook-feed-mobile">
+     <iframe src="https://widget.tagembed.com/2151383" loading="lazy"  style="width:100%;height:100vh;border:none;"></iframe>
+ </section>
+ 
     <section class="partners">
         <article>
             <b><h2>Våre samarbeidspartnere</h2></b>
