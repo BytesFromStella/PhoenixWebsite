@@ -139,13 +139,13 @@ The website adheres to a **blue and white sustainability-focused palette**:
 
 ## Development Process
 
-This is a **private repository** for an internal group project. The development follows an agile methodology with regular check-ins.
+This is a **private repository** for an internal group project. The development follows an agile methodology with regular meetings, talks and a good flow with communication throughout the production process.
 
-### Workflow:
+### Workflow and team contribution+strengths
 
-1. Assign tasks based on team strengths.
-2. Develop features in separate branches.
-3. Conduct code reviews before merging into `main`.
+1. Assign tasks based on team strengths
+2. Develop features in separate branches when necessary. This was a small project, so using a single branch was an acceptable use of the repository. If we had major features being implemented independently, we would use multiple branches where Stella would commit merging and integration.
+3. Conduct code reviews before merging into `main`. 
 4. Deploy updates in staging before production release.
 
 ---
@@ -172,13 +172,26 @@ This is a **private repository** for an internal group project. The development 
 
 ## Contributors
 
-### Work Delegation:
+### Work Delegation, team strengths and key contributions:
 
-- **Joakim:** `homePageView.js`, responsible for homepage content and functionality.
-- **Kamila:** Initial boilerplate and core HTML structure.
-- **Kristoffer:** Styling, animations, and aesthetic adjustments.
-- **Therese:** `aboutPageView.js`, content writing and layout improvements.
-- **Stella:** Overall project audit, content writing for partnerships, and documentation.
+- Kristoffer is 
+- Kamila is good at functional design and external integration (iframes). She contributed with making the  for example.
+- Joakim created the general project structure using the MVC-tactic and contributed to the boilerplate construction.
+- Therese 
+
+- **Joakim:** 
+Worked on `homePageView.js`, responsible for homepage content and functionality. 
+Key contribution was pitching ideas for the general project structure, and applying / setting up the MVC development strategy.
+- **Kamila:** 
+Responsible for contributing to the boilerplate, base HTML structure and external integration. 
+Key contributions was the banner wheel and facebook feed
+- **Kristoffer:** Styling, animations, and aesthetic adjustments. Has a good sense of pleseant web design. Key contribution was the wave-animation and logo suggestion (was overwritten due to demands from clients).
+- **Therese:** 
+`aboutPageView.js`, content writing and layout improvements. 
+Key contribution
+- **Stella:** 
+Overall project audit and management, content writing for partnerships, and documentation. 
+Key contribution was the README documenting the project and contributing with support whenever issues arised.
 
 ---
 
