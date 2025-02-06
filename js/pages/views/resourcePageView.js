@@ -51,7 +51,7 @@ export function resourcePageView() {
         samarbeider om løsninger for en mer bærekraftig fremtid. Senteret fokuserer spesielt på sirkulærøkonomi, grønn innovasjon og 
         sosial inkludering, og har allerede hjulpet flere små bedrifter med å utvikle bærekraftige forretningsmodeller.
     </p>
-    <a href="https://www.bolgenbaerekraft.no" target="_blank">Les mer (Bølgen Bærekraftssenter)</a>
+    <a href="https://bolgenbks.no/" target="_blank">Les mer (Bølgen Bærekraftssenter)</a>
 
     <h3>3. Prosjekt for inkludering i arbeid og utdanning (PIAU)</h3>
     <p>
