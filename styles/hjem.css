@@ -46,6 +46,16 @@ article {
     border-radius: 12px;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
 }
+.aboutUsA{
+    color: #1e3a8a;
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    margin: 10% 0 2rem;
+    padding-bottom: 1.5rem;
+    position: relative;
+    margin-left: 20%;
+}
 
 h2 {
     color: #1e3a8a;
