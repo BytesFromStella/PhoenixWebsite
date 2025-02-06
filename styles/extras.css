@@ -114,13 +114,12 @@
   /* Facebook Feed */
   aside {
     position: sticky;
-    top: 300px;
-    bottom: 300px;
+    top: 350px;
+    bottom: 100px;
     overflow-y: auto;
     width: 20%;
     height: 100vh;
     float: right;
-    background-color: var(--light-blue);
+    background-color: white;
   } 
-  
   
