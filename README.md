@@ -1,61 +1,190 @@
-# PhoenixWebsite
-For our group project week 5-7 in 2025
+# HUB Phønix Website
 
-# Discussion
-Desktop view would have a static menu navigation, along with the following chronologic order from top to bottom: Head, nav, main+facebook feed, footer
-See file "readme-resources\home page.png" for an example
+HUB Phønix is a competence center for sustainability and circular economy in Fredrikstad, Norway. Established in June 2024, the organization aims to serve as a hub for innovation, collaboration, and knowledge-sharing among local businesses, educational institutions, governmental bodies, and individuals.
 
-# Delegation (current)
-- Joakim: ``homePageView.js`` id: main
-- Kamila: Started working on boilerplate (general structure) of HTML.
-- Kristoffer: Working on styling, animations, aestethic and design
-- Therese: Writing the ``about.html`` content
-- Stella: Audit progress and help out wherever needed. Write ``partners`` content
+## Table of Contents
 
-## Structure and construction
-The tags like ``<main>`` contain the following:
+1. [Project Overview](#project-overview)
+2. [Features](#features)
+3. [Setup Instructions](#setup-instructions)
+4. [File Structure](#file-structure)
+5. [Navigation and Routing](#navigation-and-routing)
+6. [Design and Styling](#design-and-styling)
+7. [Security Considerations](#security-considerations)
+8. [Development Process](#development-process)
+9. [Task Overview and Requirements](#task-overview-and-requirements)
+10. [Contributors](#contributors)
 
-- A header with the logo and the wave animation. 
-- A nav bar with static link boxes (not <button>).
-The header and the NAV-bar is attached as a static element on the top of the page.
-- Main will contain the contents of the website. It is where we replace content when the user clicks on a link and the new "page" loads. Use the following syntax to point to the main HTML tag and HTML content: ```document.getElementsByTagName("main").innerHTML = "value"```
-- Aside tag with the facebook feed. This will move above/below main when viewing the website on a mobile phone.
-- Footer will contain certain links, copyright, partnerships with logo and links and a "seperate" section above it with the newsletter signup.
+---
 
-## Responsive design and layout
-How the webpage is displayed on each device.
+## Project Overview
 
-### Desktop
-This is our starting point. Some might argue you should design the website from the smallest device first, but this works for us. 
-- General layout: 
-The layout is displayed as a document with spacing on each side. 
-- Header and nav-bar: 
-Staticly attached to the top of the page. It will display all the links as seperate buttons. The buttons should have a distinct light-up animation when hovered over.
-- Main, article and aside:
-Displayed on the middle of the page. The main tag will contain the view currently being displayed (main, about us, resources etc.). The article would be displayed alongside main if it's currently present.
-Aside would be in the spacing on either side, or on the bottom of the website (either in footer or on a view like "about us").
-- Footer: 
-Displayed on the bottom of the website. It would contain a short "about us" text, a few important links, location and address for the organization, phone number, email and buttons for social media.
-The bottom would also have a copyright. 
+This website serves as an interactive platform for HUB Phønix, providing information about sustainability initiatives, booking services, educational content, and community engagement opportunities. The project follows the Model-View-Controller (MVC) pattern for maintainability and scalability.
 
-## Aestethic and styling
-- A background animation with slow water waves. 
-We are following a provided color pallette for this assignment, and restyle all of these using ``:root`` in the core CSS-file
+### Technologies Used:
 
-### Main color pallette
-Blue: PMS 7461C (R10 G151 B217)
-Marineblue: PMS 294C (R25 G72 B106)
-Light blue: PMS 638C (R38 G189 B226)
-### Secondary color pallette 
-Light gray: PMS Cool Gray 1C (R241 G241 B241)
-Black: R0 G0 B0
+- HTML5, CSS3, JavaScript (ES6)
+- MVC architecture
+- Responsive design principles
+- JavaScript-based routing
 
-## MVC and folder structure
-We are using the model view controller style for this project so subsequent versions of the website can easily expand and deploy. You just add another view to the project and you have another functioning page using the core CSS without modifications.
+---
 
-Index: acts as our boilerplate (template) for the page. All views will be displayed inside the main tag.
+## Features
 
-Folders:
-- JS: contains all the javascript code with ALL the views and functionality
-- JS/pages: contains the HTML for each view(page) for the project. HomePage view is the default.
-- Styles: Contains the water wave animation and general layout of the page
+- **Dynamic Routing:** Content updates dynamically without full-page reloads.
+- **Booking System:** Integrated scheduling platform for meetings and events.
+- **Resource Hub:** Collection of sustainability resources, reports, and case studies.
+- **News & Updates:** Section for upcoming events and announcements.
+- **Facebook Feed Integration:** Live updates from the HUB Phønix community.
+- **Partner Carousel:** Showcase of strategic collaborations.
+
+---
+
+## Setup Instructions
+
+### 1. Clone/download the Repository
+The repository site can be found here: https://github.com/BytesFromStella/PhoenixWebsite
+Click on the green ``<> Code`` button and select ``Download zip`` to download the entire folder
+**OR**
+```sh
+git clone https://github.com/BytesFromStella/PhoenixWebsite
+cd HUB-Phonix
+```
+
+### 2. Install Dependencies
+
+Ensure you have a local web server running, such as Live Server for VS Code.
+
+### 3. Run the Project
+
+To run the website locally, open `index.html` in your browser or use a simple HTTP server:
+
+```sh
+npx serve .
+```
+
+---
+
+## File Structure
+
+```
+HUB-Phonix/
+├── index.html          # Main entry point
+├── styles/             # CSS stylesheets
+│   ├── wave.css
+│   ├── styles.css
+│   ├── hjem.css
+│   ├── extras.css
+│   ├── carousel.css
+├── js/                 # JavaScript logic
+│   ├── Main/
+│   │   ├── controller.js
+│   │   ├── router.js
+│   ├── Pages/
+│   │   ├── homePageView.js
+│   │   ├── aboutPageView.js
+│   │   ├── servicesPageView.js
+│   │   ├── bookingPageView.js
+│   │   ├── resourcePageView.js
+├── assets/             # Images, logos, and multimedia
+│   ├── logo-blue.png
+│   ├── partners/
+│   │   ├── partner1.png
+│   │   ├── partner2.png
+│   │   ├── ...
+├── README.md           # Documentation
+```
+
+---
+
+## Navigation and Routing
+
+- Routing is handled dynamically in `router.js`.
+- The `<main>` tag serves as the primary content container for loading different views.
+- Pages are structured as modular JavaScript files (`homePageView.js`, `aboutPageView.js`, etc.).
+
+---
+
+## Design and Styling
+
+The website adheres to a **blue and white sustainability-focused palette**:
+
+### Primary Colors:
+
+- **Blue:** `#0A97D9` (PMS 7461C)
+- **Marine Blue:** `#19486A` (PMS 294C)
+- **Light Blue:** `#26BDE2` (PMS 638C)
+
+### Secondary Colors:
+
+- **Light Gray:** `#F1F1F1` (PMS Cool Gray 1C)
+- **Black:** `#000000`
+
+### Effects:
+
+- **Wave Animation:** Creates a smooth water motion background (`wave.css`).
+- **Hover Effects:** Interactive buttons with subtle lighting animations.
+
+---
+
+## Security Considerations
+
+- **Input Validation:** Sanitization of all user inputs.
+- **Cross-Origin Resource Sharing (CORS):** Secure iframe embedding for the booking system.
+- **HTTPS Enforcement:** The project is designed for deployment under HTTPS.
+- **Minimal External Dependencies:** Reducing security risks by avoiding unnecessary libraries.
+
+---
+
+## Development Process
+
+This is a **private repository** for an internal group project. The development follows an agile methodology with regular check-ins.
+
+### Workflow:
+
+1. Assign tasks based on team strengths.
+2. Develop features in separate branches.
+3. Conduct code reviews before merging into `main`.
+4. Deploy updates in staging before production release.
+
+---
+
+## Task Overview and Requirements
+
+### **Scope**
+- **Frontend only**: The project focuses solely on frontend development.
+- **Prototype**: A fully functional prototype should be created.
+- **Planning**: Utilize Trello or a similar tool for effective planning.
+- **Wireframing**: Sketches should be created to visualize the layout before implementation.
+
+### **Timeframe**
+- The project spans at least two weeks, with possible extensions if needed.
+- No strict time limitations—work can be done both during the course and at home.
+
+### **Key Considerations**
+- **Task Delegation:** Clear assignment of responsibilities among team members.
+- **Communication:** Regular updates and team discussions.
+- **Proper HTML Usage:** Use correct semantic HTML elements and `ALT` attributes for images.
+- **Responsive Design:** The application should function seamlessly across mobile, tablet, and desktop devices.
+
+---
+
+## Contributors
+
+### Work Delegation:
+
+- **Joakim:** `homePageView.js`, responsible for homepage content and functionality.
+- **Kamila:** Initial boilerplate and core HTML structure.
+- **Kristoffer:** Styling, animations, and aesthetic adjustments.
+- **Therese:** `aboutPageView.js`, content writing and layout improvements.
+- **Stella:** Overall project audit, content writing for partnerships, and documentation.
+
+---
+
+## Contact
+
+For internal use only. Reach out to team members for project-related discussions. 📍 **Address:** Phønixbrygga 3, 1606 Fredrikstad\
+📧 **Email:** [support@hubphonix.no](mailto:kontakt@hubphonix.no)\
+🌐 **Website:** [hubphonix.no](https://hubphonix.no)
+
