@@ -16,7 +16,9 @@ function loadPage(){
     const path = window.location.hash.substring(1) || 'home';
     const page = routes[path] || routes['home'];
     document.getElementById('app').innerHTML = page();
+    toggleMeny()
 }
+
 
 function setupNavLinks(){
     const navLinks = document.querySelectorAll('nav a');

@@ -129,3 +129,60 @@
     }
   }
   
+
+  /* hamburger Meny */
+
+#hamburger{
+  display: none;
+  flex-direction: column;    
+  cursor: pointer;
+}
+
+.bar{
+    display: block;
+    background-color: var(--marine-blue);
+    width: 30px;
+    height: 4px;
+    border-radius: 40px;
+    margin: 5px;
+} 
+
+
+@media screen and (max-width:700px){
+  #hamburger{
+      display: block;
+      position: fixed;
+      top: 20px;
+      right: 5%;  
+      z-index: 4;
+      opacity: 100%;
+  }
+
+  #navbar{
+    display: block;
+    flex-direction: column;
+    position: fixed;
+    opacity: 90%;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: min(10em,100%);
+    z-index: 2;
+  } 
+  .navigation ul{
+    position: relative;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    line-height: 50px;
+    z-index: 3;
+    
+  }
+ 
+ .active{
+  left: 100%;
+ }
+} 
