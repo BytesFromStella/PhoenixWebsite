@@ -1,5 +1,10 @@
 export function homePageView() {
     return /* HTML */`
+     <!-- Facebook feed desktop-->
+     <aside id="facebook-feed-desktop">
+        <iframe src="https://widget.tagembed.com/2151383" loading="lazy" style="width:100%;height:100vh;border:none;"></iframe>
+    </aside>
+
     <section>
     <h2>Velkommen til HUB Phønix</h2>
     <article><b>
