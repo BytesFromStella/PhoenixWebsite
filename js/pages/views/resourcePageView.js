@@ -37,7 +37,7 @@ export function resourcePageView() {
 
     <h2 class="rssH">Case-studier av vellykkede bærekraftsprosjekter</h2>
 
-    <h3 class="rssH1">1. Samarbeid for sosial bærekraft i Guldborgsund Kommune</h3>
+    <h3 class="rssH">1. Samarbeid for sosial bærekraft i Guldborgsund Kommune</h3>
     <p class="rssP2">
         I Danmark har Guldborgsund Kommune skapt en modell for sosial bærekraft som involverer både offentlige og private aktører. 
         Kommunen har utviklet programmer for å inkludere sårbare grupper i arbeidsmarkedet, med tiltak som mentorordninger og 
@@ -45,7 +45,7 @@ export function resourcePageView() {
     </p>
     <a href="https://www.guldborgsund.dk/baerekraft" target="_blank">Les mer (Guldborgsund)</a>
 
-    <h3 class="rssH1">2. Bølgen Bærekraftssenter i Kristiansand</h3>
+    <h3 class="rssH">2. Bølgen Bærekraftssenter i Kristiansand</h3>
     <p class="rssP2">
         Bølgen fungerer som et innovasjons- og læringssenter for bærekraft, hvor lokale bedrifter, forskningsmiljøer og myndigheter 
         samarbeider om løsninger for en mer bærekraftig fremtid. Senteret fokuserer spesielt på sirkulærøkonomi, grønn innovasjon og 
@@ -53,7 +53,7 @@ export function resourcePageView() {
     </p>
     <a href="https://bolgenbks.no/" target="_blank">Les mer (Bølgen Bærekraftssenter)</a>
 
-    <h3 class="rssH1">3. Prosjekt for inkludering i arbeid og utdanning (PIAU)</h3>
+    <h3 class="rssH">3. Prosjekt for inkludering i arbeid og utdanning (PIAU)</h3>
     <p class="rssP2">
         Dette prosjektet er en del av NHO Østfolds "Bærekraftsløftet" og har som mål å hjelpe mennesker med hull i CV-en tilbake i arbeidslivet. 
         Gjennom samarbeid med utdanningsinstitusjoner og bedrifter har prosjektet skapt et system hvor deltakerne får opplæring og 
@@ -61,7 +61,7 @@ export function resourcePageView() {
     </p>
     <a href="https://www.nho.no/ostfold" target="_blank">Les mer (NHO Østfold)</a>
 
-    <h3 class="rssH1">4. Håpets Katedral – Et fellesskap for bærekraftig kultur og tro</h3>
+    <h3 class="rssH">4. Håpets Katedral – Et fellesskap for bærekraftig kultur og tro</h3>
     <p class="rssP2">
         Håpets Katedral er et flerreligiøst og bærekraftig prosjekt der mennesker fra ulike kulturer og bakgrunner jobber sammen for å bygge 
         et fysisk symbol på samarbeid og inkludering. Gjennom tradisjonelt håndverk, frivillig arbeid og interkulturelt samarbeid har 
@@ -69,7 +69,7 @@ export function resourcePageView() {
     </p>
     <a href="https://www.hapetskatedral.no" target="_blank">Les mer (Håpets Katedral)</a>
 
-    <h3 class="rssH1">5. Norsk Senter for Sirkulær Økonomi (NCCE) – En plattform for bærekraftig næringsutvikling</h3>
+    <h3 class="rssH">5. Norsk Senter for Sirkulær Økonomi (NCCE) – En plattform for bærekraftig næringsutvikling</h3>
     <p class="rssP2">
         NCCE jobber med sirkulære forretningsmodeller og ressursutnyttelse i industrien. Senteret hjelper bedrifter med å utvikle løsninger 
         som reduserer avfall og maksimerer verdien av eksisterende ressurser. Gjennom partnerskap med HUB Phønix og andre 
