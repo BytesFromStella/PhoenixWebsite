@@ -130,12 +130,14 @@
   }
   
 
-   /* hamburger Meny */
+  /* hamburger Meny */
+
 #hamburger{
   display: none;
   flex-direction: column;    
   cursor: pointer;
 }
+
 .bar{
     display: block;
     background-color: var(--marine-blue);
@@ -144,6 +146,8 @@
     border-radius: 40px;
     margin: 5px;
 } 
+
+
 @media screen and (max-width:700px){
   #hamburger{
       display: block;
@@ -153,6 +157,7 @@
       z-index: 4;
       opacity: 100%;
   }
+
   #navbar{
     display: block;
     flex-direction: column;

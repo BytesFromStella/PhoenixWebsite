@@ -188,7 +188,7 @@ Key contributions was the banner wheel and facebook feed
 - **Kristoffer:** Styling, animations, and aesthetic adjustments. Has a good sense of pleseant web design. Key contribution was the wave-animation and logo suggestion (was overwritten due to demands from clients).
 - **Therese:** 
 `aboutPageView.js`, content writing and layout improvements. 
-Key contribution
+Key contribution has been the hamburger menu for the responsive designs, and contributing to project decisions.
 - **Stella:** 
 Overall project audit and management, content writing for partnerships, and documentation. 
 Key contribution was the README documenting the project and contributing with support whenever issues arised.
@@ -198,6 +198,6 @@ Key contribution was the README documenting the project and contributing with su
 ## Contact
 
 For internal use only. Reach out to team members for project-related discussions. 📍 **Address:** Phønixbrygga 3, 1606 Fredrikstad\
-📧 **Email:** [support@hubphonix.no](mailto:kontakt@hubphonix.no)\
+📧 **Email:** [kontakt@hubphonix.no](mailto:kontakt@hubphonix.no)\
 🌐 **Website:** [hubphonix.no](https://hubphonix.no)
 
