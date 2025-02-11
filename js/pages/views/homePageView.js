@@ -10,6 +10,8 @@ export function homePageView() {
     <article><b>
     HUB Phønix er et kompetansesenter for bærekraft, dedikert til å fremme FNs bærekraftsmål i vår region. Vårt mål er å samle innbyggere, næringsliv, utdanningsinstitusjoner og lokale myndigheter i en felles innsats for en mer bærekraftig fremtid.
     Gjennom workshops, konferanser og praktiske prosjekter skaper vi en arena for innovasjon, samarbeid og kunnskapsdeling. Vår visjon er å være et fyrtårn for bærekraftige praksiser, inspirere andre regioner og demonstrere kraften av lokalt engasjement i globale utfordringer.</b></article>
+    </article>
+    <img src="assets/hub phonix full building.png" alt="HUB Phønix building" style="display: block; max-width: 70%; height: auto; object-fit: cover; margin: auto;">
     </section>
     <section>
         <article>
@@ -23,6 +25,8 @@ export function homePageView() {
             </ul>
             <p>Les mer om hvordan vi jobber med bærekraftsmålene <a href="">her</a>.</p>
             </article>
+            <img src="assets/bærekraftsmål.png" alt="bærekraftsmål" style="display: block; max-width: 70%; height: auto; object-fit: cover; margin: auto;">
+
             </section>
  
     <section class="partners">

@@ -7,6 +7,7 @@ export function aboutPageView() {
             <h2>Vi er HUB Phønix</h2>
             <p>HUB Phønix er et innovativt kompetansesenter for bærekraft og sirkulær økonomi i hjertet av Fredrikstad.</p>
             <p>Vi er et dynamisk fellesskap som samler organisasjoner, prosjekter og individer med et felles mål: å fremme løsninger som bidrar til en mer bærekraftig fremtid for både lokalsamfunnet og planeten.</p>
+            <img src="assets/Åpning av HUB Phønix.jpg" alt="Åpning av HUB Phønix" style=" width: 100%; height: 100%; object-fit: cover;">
         </article>
 
         <!-- Vision -->
