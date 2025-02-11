@@ -198,6 +198,6 @@ Key contribution was the README documenting the project and contributing with su
 ## Contact
 
 For internal use only. Reach out to team members for project-related discussions. 📍 **Address:** Phønixbrygga 3, 1606 Fredrikstad\
-📧 **Email:** [support@hubphonix.no](mailto:kontakt@hubphonix.no)\
+📧 **Email:** [kontakt@hubphonix.no](mailto:kontakt@hubphonix.no)\
 🌐 **Website:** [hubphonix.no](https://hubphonix.no)
 
